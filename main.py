@@ -1,5 +1,5 @@
 import time
-from get_cmd import get_data
+from get_data import get_data
 from server_sent import server_sent
 
 
