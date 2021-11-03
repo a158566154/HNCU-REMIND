@@ -1,16 +1,16 @@
 import requests,json,urllib3
-from get_cmd import get_data
+from get_data import get_data
 urllib3.disable_warnings()
 
 
 # Corpid是企业ID
-Corpid = ""
+Corpid = "#########"
 
-# Secret是管理组凭证密钥
-Secret = ""
+# Secret是管理组凭证密钥即应用secret
+Secret = "############"
 
 # 应用ID
-Agentid = ""
+Agentid = "#########"
 
 # token_config文件放置路径
 Token_config = r'./config.json'
