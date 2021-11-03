@@ -6,8 +6,8 @@ from server_sent import SendMessage
 
 
 def select_money():
-    power_url = 'http://smart.hncu.net/microhome/classic/html/index.html#?publicUserId=admin&weixin_openid=oKAGAwzqqC9AGIMd-rTYDJHaJuEY&tab=5\\'
-    woter_url = 'http://smart.hncu.net/microhomes/classic/html/index.html#?publicUserId=admin&weixin_openid=oKAGAwzqqC9AGIMd-rTYDJHaJuEY&tab=5\\'
+    power_url = 'http://smart.hncu.net/microhome/classic/html/index.html#?publicUserId=admin&weixin_openid=oKAGAwzqqC9AGIMd-rTYDJHaJuEY&tab=5'
+    woter_url = 'http://smart.hncu.net/microhomes/classic/html/index.html#?publicUserId=admin&weixin_openid=oKAGAwzqqC9AGIMd-rTYDJHaJuEY&tab=5'
 
     money = get_data()
     img ='经过查询，当前剩余电费{}元，剩余水费{}元'.format(money[0],money[1])
