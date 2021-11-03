@@ -29,7 +29,7 @@ def select_money():
 
             time.sleep(3600)
         else:
-            SendMessage(Subject='电费不足10元提醒',Content='点击<a href=\"{}">这里</a>进行电费缴纳,{}'.format(power_url,img))
+            #SendMessage(Subject='电费不足10元提醒',Content='点击<a href=\"{}">这里</a>进行电费缴纳,{}'.format(power_url,img))
             
             time.sleep(3600)
 
